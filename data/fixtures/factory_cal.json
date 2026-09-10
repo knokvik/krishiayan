@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "moisture": {"offset": 380.0, "scale": 24.5, "unit": "pct_vwc", "raw_max": 2500},
+  "temperature": {"offset": 0.0, "scale": 0.041, "unit": "celsius", "raw_max": 2000},
+  "ec": {"offset": 0.0, "scale": 0.0022, "unit": "dS_m", "raw_max": 4000},
+  "density_by_texture": {
+    "sand": 1.12,
+    "sandy_loam": 1.08,
+    "loam": 1.00,
+    "black_cotton": 0.94,
+    "clay": 0.90,
+    "laterite": 1.04,
+    "saline": 0.98
+  }
+}
