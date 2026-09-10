@@ -17,11 +17,12 @@
 **Team:** Niraj Rajendra Naphade · Yash Rajesh Kalagate · MIT Academy of Engineering, Pune
 **Domain:** Agri-Tech and Water Resilience
 
-</div>
+### Field soil-health landscape
 
 <p align="center">
-  <img src="docs/figures/graph_surface_3d.png" width="100%" alt="MAEP moisture-adaptive correction surface" />
+  <img src="docs/figures/graph_soil_landscape.png" width="80%" alt="3D soil health landscape" />
 </p>
+
 
 ---
 
@@ -66,12 +67,6 @@ The graphs below are produced by running the full pipeline on a **bundled simula
 
 <p align="center">
   <img src="docs/figures/graph_npk_3d.png" width="80%" alt="3D NPK prediction cloud" />
-</p>
-
-### Field soil-health landscape
-
-<p align="center">
-  <img src="docs/figures/graph_soil_landscape.png" width="80%" alt="3D soil health landscape" />
 </p>
 
 ### Wet-soil optical collapse vs MAEP correction
