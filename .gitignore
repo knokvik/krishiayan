@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Node / frontend
+node_modules/
+.next/
+out/
+.turbo/
+*.log
+npm-debug.log*
+
+# Models & data (keep small fixtures, ignore large binaries)
+data/raw/*
+data/processed/*
+models/artifacts/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/fixtures/
+!models/artifacts/.gitkeep
+
+# Secrets & local
+.env
+.env.*
+!.env.example
+*.pem
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
