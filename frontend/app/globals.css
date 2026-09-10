@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f3f7f2;
+  --ink: #122016;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.tile {
+  @apply rounded-2xl bg-white p-4 shadow-sm border border-emerald-100;
+}
