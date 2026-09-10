@@ -1,0 +1,67 @@
+{
+  "n_samples": 2400,
+  "n_train": 1536,
+  "n_cal": 384,
+  "n_test": 480,
+  "split": "group-shuffle by plot_id",
+  "heads": {
+    "n_mgkg": {
+      "mae": 11.1268,
+      "r2": 0.9733,
+      "conformal_q90": 22.6325,
+      "coverage_90": 0.8792
+    },
+    "p_mgkg": {
+      "mae": 1.0775,
+      "r2": 0.972,
+      "conformal_q90": 2.2638,
+      "coverage_90": 0.9125
+    },
+    "k_mgkg": {
+      "mae": 9.3109,
+      "r2": 0.9716,
+      "conformal_q90": 20.7573,
+      "coverage_90": 0.925
+    },
+    "soc_pct": {
+      "mae": 0.0292,
+      "r2": 0.974,
+      "conformal_q90": 0.0619,
+      "coverage_90": 0.9104
+    },
+    "ph_hat": {
+      "mae": 0.0971,
+      "r2": 0.9701,
+      "conformal_q90": 0.2071,
+      "coverage_90": 0.9042
+    },
+    "yield_index": {
+      "mae": 0.0154,
+      "r2": 0.9655,
+      "conformal_q90": 0.0315,
+      "coverage_90": 0.9
+    },
+    "stress": {
+      "accuracy": 0.9187,
+      "classes": [
+        "healthy",
+        "heat",
+        "k_stress",
+        "n_stress",
+        "p_stress",
+        "salinity",
+        "water_stress",
+        "waterlogging"
+      ]
+    }
+  },
+  "wet_soil": {
+    "n_wet_test": 239,
+    "n_dry_test": 241,
+    "soc_mae_wet": 0.0312,
+    "soc_mae_dry": 0.0272,
+    "mean_raw_optical_wet": 0.0129,
+    "mean_corr_optical_wet": 0.2815,
+    "note": "corrected optical is the training feature; raw wet optical is collapsed"
+  }
+}
