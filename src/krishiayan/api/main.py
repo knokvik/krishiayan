@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from krishiayan import __version__
-from krishiayan.api.routes import auth, farms, ingest, weather
+from krishiayan.api.routes import auth, dashboard, farms, ingest, weather
 from krishiayan.core.config import get_settings
 from krishiayan.core.db import SessionLocal, init_db
 from krishiayan.services.crops import seed_crops
@@ -44,6 +44,7 @@ app.include_router(auth.router)
 app.include_router(farms.router)
 app.include_router(ingest.router)
 app.include_router(weather.router)
+app.include_router(dashboard.router)
 
 
 @app.get("/healthz", tags=["system"])
