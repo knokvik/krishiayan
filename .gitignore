@@ -26,14 +26,21 @@ out/
 *.log
 npm-debug.log*
 
-# Models & data (keep small fixtures, ignore large binaries)
+# Models & data (keep small fixtures + trained heads, ignore large dumps)
 data/raw/*
 data/processed/*
-models/artifacts/*
+data/inbox/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/inbox/.gitkeep
 !data/fixtures/
+!data/crops/
+!data/icar/
+models/artifacts/*
 !models/artifacts/.gitkeep
+!models/artifacts/*.json
+!models/artifacts/*.joblib
+!models/artifacts/*.md
 
 # Secrets & local
 .env
