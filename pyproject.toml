@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "krishiayan"
 version = "0.1.0"
 description = "AI soil intelligence brain for the Krishiayan in-situ probe — raw readings to fertilizer what/when."
+readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [
